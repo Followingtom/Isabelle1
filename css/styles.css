@@ -1,0 +1,726 @@
+/* STARTER CODE -- DO NOT DELETE */
+/*	============================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: url(https://animal-crossing.com/assets/img/patterns/footer-dots.png) #fdce1d;
+    background-size: 48px 48px;
+	font-family: 'Zilla Slab', serif;
+}
+
+
+.nav ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #c4171b;
+  }
+  
+.nav li a {
+	display: block;
+	color: #fdce1d;
+	text-align: center;
+	padding: 20px 40px;
+	text-decoration: none;
+	font-weight:bold;
+	font-size: 24px;
+  }
+  
+.nav li a:hover {
+	background-color: #951114;
+  }
+
+
+.intro {
+	display: block;
+	background: url(https://animal-crossing.com/assets/img/patterns/green-triangles.png);
+	background-color: #01A623;
+	
+}
+
+.intro-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Isabelle-header{
+	border-radius: 25px;
+	background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-3.jpg);
+	padding-top: 20px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 32px;
+	color: #fdce1d;
+}
+
+.avatar-intro {
+	border-radius: 40px;
+	padding: 20px;
+	width: 1000px;
+}
+
+.divider {
+	display: block;
+	background-color: #c4171b;
+	height: 75px;
+}
+
+.page-section-full {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.page-section {
+	display: inline-block;
+	align-content: center;
+	background-color: #fdfdea;
+	width: 1500px;
+	padding: 40px;
+	border-radius: 40px;
+}
+
+.page-section-padding {
+	Padding: 20px;
+}
+
+.page-section--history {
+	height: 650px;
+	background: url(https://animal-crossing.com/assets/img/patterns/green-triangles.png);
+	background-color: #01A623;
+}
+
+.section-content-history {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-history{
+	display: flex;
+	justify-content: center;
+}
+
+.header-history h2 {
+	border-radius: 25px;
+	background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-3.jpg);
+	padding-top: 20px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 32px;
+	color: #fdce1d;
+}
+
+.container-history {
+	padding: 20px;
+}
+
+.sub-container-history {
+	display: inline-block;
+	width: 800px;
+	border-radius: 40px;
+	padding: 20px;
+	background: url(https://animal-crossing.com/assets/img/patterns/footer-dots.png)#fdfdea;
+	font-size: 22px;
+	
+}
+
+.history-lead-in {
+	font-weight: bold;
+}
+
+
+.page-section--stats {
+	height: 100%;
+	padding: 40px;
+	background: url(https://animal-crossing.com/assets/img/patterns/green-triangles.png);
+	background-color: #01A623;
+}
+
+.section-content-stats {
+
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	background: url(https://animal-crossing.com/assets/img/patterns/footer-dots.png)#fdfdea;
+
+}
+
+.stat-list {
+	display: flex;
+	justify-content: center;
+}
+
+.stat-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-stats {
+	display: flex;
+	justify-content: center;
+}
+
+.header-stats h2 {
+	border-radius: 25px;
+	background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-3.jpg);
+	padding-top: 20px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 32px;
+	color: #fdce1d;
+}
+
+
+.stat-list {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.stat-item {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	border: 8px solid #fdce1d;
+	border-radius: 40px;
+}
+
+.stat-item-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.stat-item--one {
+	background: url('images/AnimalcrossingSpecies.jpg');
+	background-color: #01A623;
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+}
+
+.stat-item--one h3 {
+	border-radius: 25px;
+	background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-3.jpg);
+	padding-top: 20px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 32px;
+	color: #fdce1d;
+}
+
+.stat-item--one h3:hover {
+	font-size: 0;
+}
+
+.stat-item--one h3:hover:after {
+	content:attr(data-hover);
+	font-size: 26px;
+
+}
+
+.stat-item--two {
+	background: url('images/Isabelle\ Office.png');
+	background-color: #01A623;
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+}
+
+.stat-item--two h3 {
+	border-radius: 25px;
+	background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-3.jpg);
+	padding-top: 20px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 32px;
+	color: #fdce1d;
+}
+
+.stat-item--two h3:hover {
+	font-size: 0;
+}
+
+.stat-item--two h3:hover:after {
+	content:attr(data-hover);
+	font-size: 24px;
+
+}
+
+.stat-item--three {
+	background: url('images/ZODIAC.png');
+	background-color: #01A623;
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+}
+
+.stat-item--three h3 {
+	border-radius: 25px;
+	background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-3.jpg);
+	padding-top: 20px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 32px;
+	color: #fdce1d;
+}
+
+.stat-item--three h3:hover {
+	font-size: 0;
+}
+
+.stat-item--three h3:hover:after {
+	content:attr(data-hover);
+	font-size: 26px;
+
+}
+.stat-item--four {
+	background: url('images/Isabelle\ Birthday.png');
+	background-color: #01A623;
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+}
+
+.stat-item--four h3 {
+	border-radius: 25px;
+	background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-3.jpg);
+	padding-top: 20px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 32px;
+	color: #fdce1d;
+}
+
+.stat-item--four h3:hover {
+	font-size: 0;
+}
+
+.stat-item--four h3:hover:after {
+	content:attr(data-hover);
+	font-size: 24px;
+
+}
+.header-color {
+	display: flex;
+	justify-content: center;
+}
+
+.page-section--powers {
+	height: 100%;
+	padding: 40px;
+	background: url(https://animal-crossing.com/assets/img/patterns/green-triangles.png);
+	background-color: #01A623;
+}
+
+.section-content-powers {
+
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	background: url(https://animal-crossing.com/assets/img/patterns/footer-dots.png)#fdfdea;
+
+}
+
+.header-powers {
+	display: flex;
+	justify-content: center;
+}
+
+.header-powers h2 {
+	border-radius: 25px;
+	background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-3.jpg);
+	padding-top: 20px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 32px;
+	color: #fdce1d;
+}
+
+.power-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.power-parent {
+	display: inline-block;
+	width: 600px;
+	padding: 40px;
+	border: 8px solid #fdce1d;
+	border-radius: 40px;
+	background: url(https://animal-crossing.com/assets/img/patterns/green-triangles.png);
+	background-color: #01A623;
+}
+
+.power-parent h3 {
+	border-radius: 25px;
+	background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-3.jpg);
+	padding-top: 20px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 26px;
+	color: #fdce1d;
+}
+
+.power-parent-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.power-child {
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+	border: 8px solid #fdce1d;
+	border-radius: 40px;
+}
+
+.power-child--one {
+	background: url('images/IsabelleTeamwork.gif');
+	background-color: #01A623;
+	background-size: 600px 300px;
+	background-repeat: no-repeat;
+}
+
+.power-child--two {
+	background: url('images/IsabelleFishing.gif');
+	background-color: #01A623;
+	background-size: 600px 300px;
+	background-repeat: no-repeat;
+}
+
+.power-child--three {
+	background: url('images/IsabelleParty.gif');
+	background-color: #01A623;
+	background-size: 600px 300px;
+	background-repeat: no-repeat;
+}
+
+.power-child--four {
+	background: url('images/IsabelleRocket.gif');
+	background-color: #01A623;
+	background-size: 600px 300px;
+	background-repeat: no-repeat;
+}
+
+.power-description {
+	display: inline-block;
+	width: 100%;
+	padding-left: 10px;
+    padding-right: 10px;
+	border-radius: 20px;
+	margin-top: 5px;
+	background: url(https://animal-crossing.com/assets/img/patterns/footer-dots.png)#fdfdea;
+}
+
+.power-description p {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.page-section--colors {
+    padding: 40px;
+    background: url(https://animal-crossing.com/assets/img/patterns/green-triangles.png);
+    background-color: #01A623;
+}
+
+.header-color h2 {
+	border-radius: 25px;
+	background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-3.jpg);
+	padding-top: 20px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 32px;
+	color: #fdce1d;
+}
+
+.swatch-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 -.5rem;
+	width: 100%;
+}
+
+.swatch-item {
+	width: 300px;
+	padding: 20px;
+	margin: 20px;
+	background: url(https://animal-crossing.com/assets/img/patterns/footer-dots.png)#fdfdea;
+	border: 8px solid #fdce1d;
+	border-radius: 40px;
+}
+
+.swatch-sample {
+	height: 200px;
+	width: 100%;
+	border: 2px solid #000000;
+	border-radius: 40px;
+}
+
+.swatch-sample--one {
+	background-color: #fdce1d;
+}
+
+.swatch-sample--two {
+	background-color: #c4171b;
+}
+
+.swatch-sample--three {
+	background-color: #01A623;
+}
+
+.swatch-sample--four {
+	background-color: #fdfdea;
+}
+
+
+.swatch-hex {
+	padding: 5px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.page-section--quote {
+	width: 1000px;
+	padding: 40px;
+    background: url(https://animal-crossing.com/assets/img/patterns/green-triangles.png);
+    background-color: #01A623;
+}
+
+.container-quote {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-quote h2 {
+	border-radius: 25px;
+	background: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-3.jpg);
+	padding-top: 20px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 32px;
+	color: #fdce1d;
+}
+
+.block-quote {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	border: 8px solid #fdce1d;
+	border-radius: 40px;
+}
+
+.isabelle-cheer {
+	width: 800px;
+	border-radius: 40px;
+	border: 8px solid #fdce1d;
+	margin-bottom: 40px;
+}
+
+@media (max-width: 795px) {
+
+	.nav ul { 
+	  flex-direction: column;
+	} 
+
+	.stat-list {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.stat-item {
+		margin: 20px;
+		width:900px;
+		height:900px;
+	}
+
+	.header-stats h2 {
+		padding-top: 40px;
+    	width: 400px;
+   	 	height: 150px;
+		font-size: 64px;
+	}
+	.stat-item--one {
+		background-size: 900px 900px;
+	}
+
+	.stat-item--two {
+		background-size: 900px 900px;
+	}
+
+	.stat-item--three {
+		background-size: 900px 900px;
+	}
+
+	.stat-item--four {
+		background-size: 900px 900px;
+	}
+
+	.stat-item--one h3 {
+		padding-top: 40px;
+    	width: 400px;
+   	 	height: 150px;
+		font-size: 64px;
+	}
+
+	.stat-item--two h3 {
+		padding-top: 40px;
+    	width: 400px;
+   	 	height: 150px;
+		font-size: 64px;
+	}
+
+	.stat-item--three h3 {
+		padding-top: 40px;
+    	width: 400px;
+   	 	height: 150px;
+		font-size: 64px;
+	}
+
+	.stat-item--four h3 {
+		padding-top: 40px;
+    	width: 400px;
+   	 	height: 150px;
+		font-size: 64px;
+	}
+
+	.power-list {
+		flex-direction: column;
+		align-content: center;
+	}
+
+	.swatch-list {
+		flex-direction:column
+	}
+
+	.stat-item--one h3:hover:after {
+		font-size: 52px;
+	
+	}
+
+	.stat-item--two h3:hover:after {
+		font-size: 48px;
+	
+	}
+
+	.stat-item--three h3:hover:after {
+		font-size: 52px;
+	
+	}
+
+	.stat-item--four h3:hover:after {
+		font-size: 48px;
+	
+	}
+
+	.power-parent {
+		width: 1200px;
+	}
+
+	.header-powers h2 {
+		padding-top: 40px;
+		width: 400px;
+		height: 150px;
+		font-size: 64px;
+	}
+	.power-parent h3 {
+			padding-top: 40px;
+			width: 400px;
+			height: 150px;
+			font-size: 52px;
+	}
+
+	.power-child {
+		height: 600px;
+	}
+
+	.power-child--one {
+		background-size: 1200px 600px;
+	}
+
+	.power-child--two {
+		background-size: 1200px 600px;
+	}
+
+	.power-child--three {
+		background-size: 1200px 600px;
+	}
+
+	.power-child--four {
+		background-size: 1200px 600px;
+	}
+
+	.power-description p {
+		font-size: 36px;
+	}
+
+	.header-color h2 {
+		padding-top: 40px;
+		width: 400px;
+		height: 150px;
+		font-size: 52px;
+}
+	.swatch-item {
+		width: 600px;
+
+	}
+
+	.swatch-sample {
+		height: 400px;
+	}
+
+	.swatch-hex {
+		font-size: 32px;
+	}
+  }
